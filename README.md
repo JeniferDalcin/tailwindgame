@@ -10,4 +10,4 @@ At 10th level.
 ## To see more
 Copy the repo, you can use **npm install**, **npm run watch** the page will be ready to use at **http://localhost:8280** .
 
-![PAGE](images/tailwindcssgame.png)
+![PAGE](resources/public/images/tailwindcssgame.png)
