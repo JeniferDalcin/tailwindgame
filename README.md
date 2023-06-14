@@ -1,4 +1,4 @@
-# Tailwincss Game, let's practice tailwindcss classes.
+# Tailwindcss Game, let's practice tailwindcss classes.
 Still working on it 🔨
 
 ## Our goal
