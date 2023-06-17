@@ -83,7 +83,7 @@
        
        ;; earth
        [:div.relative.h-full.w-full.bg-slate-950.rounded-md.border.border-indigo-700.p-7
-        [:img.absolute.top-0.left-7.h-20.w-20
+        [:img.absolute.h-20.w-20
          {:class "inset-y-1/2 -translate-y-1/2"
           :src "images/earth.png"}]
         

@@ -12,7 +12,7 @@
 (rf/reg-event-db ::!add-level
   (fn [db _]
     (when 
-      (< (get db :level) 10)
+      (< (get db :level) 15)
       (update db :level inc))))
 
 ;; Dec 1 to the level, if the level is bigger than 0.
@@ -27,7 +27,7 @@
   (fn [db _]
     (when 
       (and 
-        (< (get db :current-level) 10)
+        (< (get db :current-level) 15)
         (< (get db :current-level) (get db :level)))
       (update db :current-level inc))))
 

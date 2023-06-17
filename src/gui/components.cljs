@@ -19,7 +19,7 @@
       {:class "h-7 w-7 text-white bg-slate-800 p-1 rounded-l-md hover:bg-slate-900"
        :on-click on-click-left}]
      
-     [:span.min-w-fit.bg-slate-800.text-white.text-sm.font-thin.tracking-wide.p-1 "Level " @current-level " de 10"]
+     [:span.min-w-fit.bg-slate-800.text-white.text-sm.font-thin.tracking-wide.p-1 "Level " @current-level " de 15"]
      
      [:> heroicons-solid/ChevronRightIcon
       {:class "h-7 w-7 text-white bg-slate-800 p-1 rounded-r-md hover:bg-slate-900"

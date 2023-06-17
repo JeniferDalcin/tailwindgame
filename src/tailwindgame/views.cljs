@@ -12,7 +12,12 @@
    [tailwindgame.frames.level7 :as level7]
    [tailwindgame.frames.level8 :as level8]
    [tailwindgame.frames.level9 :as level9]
-   [tailwindgame.frames.level10 :as level10]))
+   [tailwindgame.frames.level10 :as level10]
+   [tailwindgame.frames.level11 :as level11]
+   [tailwindgame.frames.level12 :as level12]
+   [tailwindgame.frames.level13 :as level13]
+   [tailwindgame.frames.level14 :as level14]
+   [tailwindgame.frames.level15 :as level15]))
 
 
 (defn main-panel []
@@ -49,7 +54,22 @@
        [level9/Frame]
        
        (= @current-level 10)
-       [level10/Frame])]))
+       [level10/Frame]
+       
+       (= @current-level 11)
+       [level11/Frame]
+       
+       (= @current-level 12)
+       [level12/Frame]
+       
+       (= @current-level 13)
+       [level13/Frame]
+       
+       (= @current-level 14)
+       [level14/Frame]
+       
+       (= @current-level 15)
+       [level15/Frame])]))
 
 
 
